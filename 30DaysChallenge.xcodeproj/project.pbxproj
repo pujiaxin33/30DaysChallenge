@@ -15,6 +15,7 @@
 		196285C61CD1AD9200C1CC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196285C41CD1AD9200C1CC06 /* LaunchScreen.storyboard */; };
 		196285D11CD1AD9200C1CC06 /* _0DaysChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285D01CD1AD9200C1CC06 /* _0DaysChallengeTests.m */; };
 		196285DC1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285DB1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m */; };
+		376C94BB7FA6390DFFB47685 /* libPods-30DaysChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F46FBD7F59FC2CEB3AB297 /* libPods-30DaysChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		196285D71CD1AD9200C1CC06 /* 30DaysChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 30DaysChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196285DB1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0DaysChallengeUITests.m; sourceTree = "<group>"; };
 		196285DD1CD1AD9200C1CC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C49D101C007568B1110729 /* Pods-30DaysChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-30DaysChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		67769E24E3C89852527F8BDD /* Pods-30DaysChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-30DaysChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		96F46FBD7F59FC2CEB3AB297 /* libPods-30DaysChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-30DaysChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376C94BB7FA6390DFFB47685 /* libPods-30DaysChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				196285CF1CD1AD9200C1CC06 /* 30DaysChallengeTests */,
 				196285DA1CD1AD9200C1CC06 /* 30DaysChallengeUITests */,
 				196285B41CD1AD9200C1CC06 /* Products */,
+				7E97064C6DFD3C6659B8791A /* Pods */,
+				4C87EA04065417C1083E50E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = 30DaysChallengeUITests;
 			sourceTree = "<group>";
 		};
+		4C87EA04065417C1083E50E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F46FBD7F59FC2CEB3AB297 /* libPods-30DaysChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E97064C6DFD3C6659B8791A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20C49D101C007568B1110729 /* Pods-30DaysChallenge.debug.xcconfig */,
+				67769E24E3C89852527F8BDD /* Pods-30DaysChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 196285E01CD1AD9200C1CC06 /* Build configuration list for PBXNativeTarget "30DaysChallenge" */;
 			buildPhases = (
+				777D88CDF7FFBCB18454BF8F /* 📦 Check Pods Manifest.lock */,
 				196285AF1CD1AD9200C1CC06 /* Sources */,
 				196285B01CD1AD9200C1CC06 /* Frameworks */,
 				196285B11CD1AD9200C1CC06 /* Resources */,
+				2395208E053317B7DF22C345 /* 📦 Embed Pods Frameworks */,
+				D89010E841D09EE034BE2319 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2395208E053317B7DF22C345 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777D88CDF7FFBCB18454BF8F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D89010E841D09EE034BE2319 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		196285AF1CD1AD9200C1CC06 /* Sources */ = {
@@ -409,6 +484,7 @@
 		};
 		196285E11CD1AD9200C1CC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C49D101C007568B1110729 /* Pods-30DaysChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 30DaysChallenge/Info.plist;
@@ -420,6 +496,7 @@
 		};
 		196285E21CD1AD9200C1CC06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67769E24E3C89852527F8BDD /* Pods-30DaysChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 30DaysChallenge/Info.plist;
@@ -496,6 +573,7 @@
 				196285E21CD1AD9200C1CC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		196285E31CD1AD9200C1CC06 /* Build configuration list for PBXNativeTarget "30DaysChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +582,7 @@
 				196285E51CD1AD9200C1CC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		196285E61CD1AD9200C1CC06 /* Build configuration list for PBXNativeTarget "30DaysChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +591,7 @@
 				196285E81CD1AD9200C1CC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

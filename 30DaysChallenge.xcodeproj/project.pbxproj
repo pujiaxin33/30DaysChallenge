@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		196285B81CD1AD9200C1CC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285B71CD1AD9200C1CC06 /* main.m */; };
-		196285BB1CD1AD9200C1CC06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285BA1CD1AD9200C1CC06 /* AppDelegate.m */; };
-		196285BE1CD1AD9200C1CC06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285BD1CD1AD9200C1CC06 /* ViewController.m */; };
+		196285BB1CD1AD9200C1CC06 /* TZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285BA1CD1AD9200C1CC06 /* TZAppDelegate.m */; };
+		196285BE1CD1AD9200C1CC06 /* TZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285BD1CD1AD9200C1CC06 /* TZViewController.m */; };
 		196285C11CD1AD9200C1CC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196285BF1CD1AD9200C1CC06 /* Main.storyboard */; };
 		196285C31CD1AD9200C1CC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196285C21CD1AD9200C1CC06 /* Assets.xcassets */; };
 		196285C61CD1AD9200C1CC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196285C41CD1AD9200C1CC06 /* LaunchScreen.storyboard */; };
@@ -38,10 +38,10 @@
 /* Begin PBXFileReference section */
 		196285B31CD1AD9200C1CC06 /* 30DaysChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaysChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		196285B71CD1AD9200C1CC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		196285B91CD1AD9200C1CC06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		196285BA1CD1AD9200C1CC06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		196285BC1CD1AD9200C1CC06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		196285BD1CD1AD9200C1CC06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		196285B91CD1AD9200C1CC06 /* TZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAppDelegate.h; sourceTree = "<group>"; };
+		196285BA1CD1AD9200C1CC06 /* TZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAppDelegate.m; sourceTree = "<group>"; };
+		196285BC1CD1AD9200C1CC06 /* TZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZViewController.h; sourceTree = "<group>"; };
+		196285BD1CD1AD9200C1CC06 /* TZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZViewController.m; sourceTree = "<group>"; };
 		196285C01CD1AD9200C1CC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		196285C21CD1AD9200C1CC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196285C51CD1AD9200C1CC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		196285B51CD1AD9200C1CC06 /* 30DaysChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				196285B91CD1AD9200C1CC06 /* AppDelegate.h */,
-				196285BA1CD1AD9200C1CC06 /* AppDelegate.m */,
-				196285BC1CD1AD9200C1CC06 /* ViewController.h */,
-				196285BD1CD1AD9200C1CC06 /* ViewController.m */,
+				196285B91CD1AD9200C1CC06 /* TZAppDelegate.h */,
+				196285BA1CD1AD9200C1CC06 /* TZAppDelegate.m */,
+				196285BC1CD1AD9200C1CC06 /* TZViewController.h */,
+				196285BD1CD1AD9200C1CC06 /* TZViewController.m */,
 				196285BF1CD1AD9200C1CC06 /* Main.storyboard */,
 				196285C21CD1AD9200C1CC06 /* Assets.xcassets */,
 				196285C41CD1AD9200C1CC06 /* LaunchScreen.storyboard */,
@@ -229,6 +229,7 @@
 		196285AB1CD1AD9200C1CC06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiaxin;
 				TargetAttributes = {
@@ -345,8 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196285BE1CD1AD9200C1CC06 /* ViewController.m in Sources */,
-				196285BB1CD1AD9200C1CC06 /* AppDelegate.m in Sources */,
+				196285BE1CD1AD9200C1CC06 /* TZViewController.m in Sources */,
+				196285BB1CD1AD9200C1CC06 /* TZAppDelegate.m in Sources */,
 				196285B81CD1AD9200C1CC06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 30DaysChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jiaxin.-0DaysChallenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 30DaysChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jiaxin.-0DaysChallenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";

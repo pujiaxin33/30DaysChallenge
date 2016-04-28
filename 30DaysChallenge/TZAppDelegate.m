@@ -6,13 +6,13 @@
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TZAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TZAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TZAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

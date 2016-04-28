@@ -6,13 +6,13 @@
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TZViewController.h"
 
-@interface ViewController ()
+@interface TZViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TZViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

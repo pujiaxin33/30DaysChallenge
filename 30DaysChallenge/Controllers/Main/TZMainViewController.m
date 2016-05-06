@@ -6,17 +6,18 @@
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
-#import "TZViewController.h"
+#import "TZMainViewController.h"
 
-@interface TZViewController ()
+@interface TZMainViewController ()
 
 @end
 
-@implementation TZViewController
+@implementation TZMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning {

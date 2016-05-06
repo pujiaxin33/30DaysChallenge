@@ -1,0 +1,18 @@
+//
+//  30DaysChallenge-Import.pch
+//  30DaysChallenge
+//
+//  Created by jiaxin on 16/5/6.
+//  Copyright © 2016年 jiaxin. All rights reserved.
+//
+
+#ifndef _0DaysChallenge_Import_pch
+#define _0DaysChallenge_Import_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TZViewController.h"
+#import "TZTableViewController.h"
+
+#endif /* _0DaysChallenge_Import_pch */

@@ -1,0 +1,22 @@
+//
+//  30DaysChallenge-PrefixHeader.pch
+//  30DaysChallenge
+//
+//  Created by jiaxin on 16/5/6.
+//  Copyright © 2016年 jiaxin. All rights reserved.
+//
+
+#ifndef _0DaysChallenge_PrefixHeader_pch
+#define _0DaysChallenge_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "30DaysChallenge-Import.pch"
+#import "30DaysChallenge-Macros.pch"
+#import "30DaysChallenge-TypeDefs.pch"
+
+#endif /* _0DaysChallenge_PrefixHeader_pch */

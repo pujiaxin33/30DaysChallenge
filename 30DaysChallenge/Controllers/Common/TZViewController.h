@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  TZViewController.h
 //  30DaysChallenge
 //
-//  Created by jiaxin on 16/4/28.
+//  Created by jiaxin on 16/5/6.
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface TZViewController : UIViewController
 
-
 @end
-

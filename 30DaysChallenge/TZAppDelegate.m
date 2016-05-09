@@ -7,6 +7,7 @@
 //
 
 #import "TZAppDelegate.h"
+#import "TZGlobalConfigManager.h"
 
 @interface TZAppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [TZGlobalConfigManager config];
+    
     return YES;
 }
 

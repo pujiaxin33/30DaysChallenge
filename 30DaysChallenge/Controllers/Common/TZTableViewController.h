@@ -10,4 +10,15 @@
 
 @interface TZTableViewController : UITableViewController
 
+//==========子类继承===========
+/**
+ *  初始化界面
+ */
+- (void)initUI;
+/**
+ *  初始化数据
+ */
+- (void)initDatas;
+
+
 @end

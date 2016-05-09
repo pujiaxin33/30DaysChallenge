@@ -10,4 +10,29 @@
 
 @implementation TZTableViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    [self initUI];
+    [self initDatas];
+}
+
+- (void)initUI
+{
+    
+}
+
+- (void)initDatas
+{
+    
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
 @end

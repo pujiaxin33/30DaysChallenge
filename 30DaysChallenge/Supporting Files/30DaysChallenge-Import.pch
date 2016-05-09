@@ -6,13 +6,12 @@
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
-#ifndef _0DaysChallenge_Import_pch
-#define _0DaysChallenge_Import_pch
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
 
 #import "TZViewController.h"
 #import "TZTableViewController.h"
+#import "UIView+FrameChange.h"
+#import <Masonry/Masonry.h>
+#import <pop/POP.h>
 
-#endif /* _0DaysChallenge_Import_pch */
+#endif

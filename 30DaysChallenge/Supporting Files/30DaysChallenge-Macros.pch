@@ -6,10 +6,27 @@
 //  Copyright © 2016年 jiaxin. All rights reserved.
 //
 
-#ifndef _0DaysChallenge_Macros_pch
-#define _0DaysChallenge_Macros_pch
+#ifdef __OBJC__
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//=============== 颜色 ==============
+#define ColorWithRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define ColorWithHex(rgbValue,a) ColorWithRGBA((float)((rgbValue & 0xFF0000) >> 16),(float)((rgbValue & 0xFF00) >> 8),(float)(rgbValue & 0xFF),a)
+//背景色
+#define kBackgroundColor ColorWithHex(0x2c3e50, 1.0f)
+//标题色
+#define kTextTitleColor ColorWithHex(0x34495e, 1.0f)
+//正文
+#define kTextBodyColor  ColorWithHex(0x71726f, 1.0f)
+//辅助
+#define kTextAssistColor  ColorWithHex(0xAEAEAE, 1.0f)
+//蓝色
+#define kBlueColor  ColorWithHex(0x3498db, 1.0f)
 
-#endif /* _0DaysChallenge_Macros_pch */
+//=============== 尺寸 ==============
+#define WindowSize [UIScreen mainScreen].bounds.size
+#define NaviHeight 64.f
+
+//=============== 图片 ==============
+#define ImageWithName(name) [UIImage imageNamed:name]
+
+#endif

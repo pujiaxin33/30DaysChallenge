@@ -10,4 +10,20 @@
 
 @interface TZViewController : UIViewController
 
+#pragma mark
+#pragma mark 子类继承
+/**
+ *  初始化界面
+ */
+- (void)initUI;
+/**
+ *  初始化数据
+ */
+- (void)initDatas;
+
+#pragma mark
+#pragma mark 导航栏
+- (void)setNaviLeftItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
+- (void)setNaviRightItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
+
 @end

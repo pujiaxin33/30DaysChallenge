@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191982FD1CE066600011DDB8 /* TZMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 191982FC1CE066600011DDB8 /* TZMainButton.m */; };
 		1950608C1CDC8B5E00C2C927 /* TZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1950608B1CDC8B5E00C2C927 /* TZViewController.m */; };
 		1950608F1CDC8B7500C2C927 /* TZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1950608E1CDC8B7500C2C927 /* TZTableViewController.m */; };
 		195060921CDC8B8B00C2C927 /* TZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195060911CDC8B8B00C2C927 /* TZTableView.m */; };
 		196285BB1CD1AD9200C1CC06 /* TZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285BA1CD1AD9200C1CC06 /* TZAppDelegate.m */; };
 		196285C11CD1AD9200C1CC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196285BF1CD1AD9200C1CC06 /* Main.storyboard */; };
-		196285C31CD1AD9200C1CC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196285C21CD1AD9200C1CC06 /* Assets.xcassets */; };
 		196285C61CD1AD9200C1CC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196285C41CD1AD9200C1CC06 /* LaunchScreen.storyboard */; };
 		196285D11CD1AD9200C1CC06 /* _0DaysChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285D01CD1AD9200C1CC06 /* _0DaysChallengeTests.m */; };
 		196285DC1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196285DB1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m */; };
+		198EDC541CDDBA9F00A3FE76 /* TZMainContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EDC531CDDBA9F00A3FE76 /* TZMainContentView.m */; };
+		198EDC581CDDC56300A3FE76 /* TZMainContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EDC561CDDC56300A3FE76 /* TZMainContentCell.m */; };
+		198EDC591CDDC56300A3FE76 /* TZMainContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC571CDDC56300A3FE76 /* TZMainContentCell.xib */; };
+		198EDC5D1CDDCE1C00A3FE76 /* TZMainContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EDC5C1CDDCE1C00A3FE76 /* TZMainContentModel.m */; };
+		198EDC601CDE29DC00A3FE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC5F1CDE29DC00A3FE76 /* Assets.xcassets */; };
+		198EDC6B1CDE29EA00A3FE76 /* lufei-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC621CDE29EA00A3FE76 /* lufei-1.png */; };
+		198EDC6C1CDE29EA00A3FE76 /* lufei-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC631CDE29EA00A3FE76 /* lufei-2.png */; };
+		198EDC6D1CDE29EA00A3FE76 /* lufei-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC641CDE29EA00A3FE76 /* lufei-3.png */; };
+		198EDC6E1CDE29EA00A3FE76 /* lufei-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC651CDE29EA00A3FE76 /* lufei-4.png */; };
+		198EDC6F1CDE29EA00A3FE76 /* lufei-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC661CDE29EA00A3FE76 /* lufei-5.png */; };
+		198EDC701CDE29EA00A3FE76 /* lufei-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC671CDE29EA00A3FE76 /* lufei-6.png */; };
+		198EDC711CDE29EA00A3FE76 /* lufei-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC681CDE29EA00A3FE76 /* lufei-7.png */; };
+		198EDC721CDE29EA00A3FE76 /* lufei-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC691CDE29EA00A3FE76 /* lufei-8.png */; };
+		198EDC731CDE29EA00A3FE76 /* lufei-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC6A1CDE29EA00A3FE76 /* lufei-9.png */; };
+		198EDC791CDF5A4200A3FE76 /* UIView+FrameChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EDC781CDF5A4200A3FE76 /* UIView+FrameChange.m */; };
 		19C86D631CDC9181006C34C3 /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D621CDC9181006C34C3 /* TZMainViewController.m */; };
 		19C86D6C1CDC9193006C34C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D6A1CDC9193006C34C3 /* main.m */; };
-		19C86D701CDC9226006C34C3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19C86D6F1CDC9226006C34C3 /* Info.plist */; };
+		19C86D731CDC9CFB006C34C3 /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D721CDC9CFB006C34C3 /* TZNavigationController.m */; };
+		19C86D771CDC9DD9006C34C3 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D761CDC9DD9006C34C3 /* UIImage+Utils.m */; };
+		19C86D7B1CDCACF7006C34C3 /* TZGlobalConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D7A1CDCACF7006C34C3 /* TZGlobalConfigManager.m */; };
 		376C94BB7FA6390DFFB47685 /* libPods-30DaysChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F46FBD7F59FC2CEB3AB297 /* libPods-30DaysChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191982FB1CE066600011DDB8 /* TZMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainButton.h; sourceTree = "<group>"; };
+		191982FC1CE066600011DDB8 /* TZMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainButton.m; sourceTree = "<group>"; };
 		1950608A1CDC8B5E00C2C927 /* TZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZViewController.h; sourceTree = "<group>"; };
 		1950608B1CDC8B5E00C2C927 /* TZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZViewController.m; sourceTree = "<group>"; };
 		1950608D1CDC8B7500C2C927 /* TZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTableViewController.h; sourceTree = "<group>"; };
@@ -50,7 +69,6 @@
 		196285B91CD1AD9200C1CC06 /* TZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAppDelegate.h; sourceTree = "<group>"; };
 		196285BA1CD1AD9200C1CC06 /* TZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAppDelegate.m; sourceTree = "<group>"; };
 		196285C01CD1AD9200C1CC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		196285C21CD1AD9200C1CC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = 30DaysChallenge/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		196285C51CD1AD9200C1CC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196285CC1CD1AD9200C1CC06 /* 30DaysChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 30DaysChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196285D01CD1AD9200C1CC06 /* _0DaysChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0DaysChallengeTests.m; sourceTree = "<group>"; };
@@ -58,6 +76,25 @@
 		196285D71CD1AD9200C1CC06 /* 30DaysChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 30DaysChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196285DB1CD1AD9200C1CC06 /* _0DaysChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0DaysChallengeUITests.m; sourceTree = "<group>"; };
 		196285DD1CD1AD9200C1CC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198EDC521CDDBA9F00A3FE76 /* TZMainContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainContentView.h; sourceTree = "<group>"; };
+		198EDC531CDDBA9F00A3FE76 /* TZMainContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainContentView.m; sourceTree = "<group>"; };
+		198EDC551CDDC56300A3FE76 /* TZMainContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainContentCell.h; sourceTree = "<group>"; };
+		198EDC561CDDC56300A3FE76 /* TZMainContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainContentCell.m; sourceTree = "<group>"; };
+		198EDC571CDDC56300A3FE76 /* TZMainContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZMainContentCell.xib; sourceTree = "<group>"; };
+		198EDC5B1CDDCE1C00A3FE76 /* TZMainContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainContentModel.h; sourceTree = "<group>"; };
+		198EDC5C1CDDCE1C00A3FE76 /* TZMainContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainContentModel.m; sourceTree = "<group>"; };
+		198EDC5F1CDE29DC00A3FE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198EDC621CDE29EA00A3FE76 /* lufei-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-1.png"; sourceTree = "<group>"; };
+		198EDC631CDE29EA00A3FE76 /* lufei-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-2.png"; sourceTree = "<group>"; };
+		198EDC641CDE29EA00A3FE76 /* lufei-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-3.png"; sourceTree = "<group>"; };
+		198EDC651CDE29EA00A3FE76 /* lufei-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-4.png"; sourceTree = "<group>"; };
+		198EDC661CDE29EA00A3FE76 /* lufei-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-5.png"; sourceTree = "<group>"; };
+		198EDC671CDE29EA00A3FE76 /* lufei-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-6.png"; sourceTree = "<group>"; };
+		198EDC681CDE29EA00A3FE76 /* lufei-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-7.png"; sourceTree = "<group>"; };
+		198EDC691CDE29EA00A3FE76 /* lufei-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-8.png"; sourceTree = "<group>"; };
+		198EDC6A1CDE29EA00A3FE76 /* lufei-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-9.png"; sourceTree = "<group>"; };
+		198EDC771CDF5A4200A3FE76 /* UIView+FrameChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameChange.h"; sourceTree = "<group>"; };
+		198EDC781CDF5A4200A3FE76 /* UIView+FrameChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameChange.m"; sourceTree = "<group>"; };
 		19C86D611CDC9181006C34C3 /* TZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainViewController.h; sourceTree = "<group>"; };
 		19C86D621CDC9181006C34C3 /* TZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainViewController.m; sourceTree = "<group>"; };
 		19C86D651CDC9193006C34C3 /* 30DaysChallenge-Import.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "30DaysChallenge-Import.pch"; sourceTree = "<group>"; };
@@ -66,6 +103,12 @@
 		19C86D681CDC9193006C34C3 /* 30DaysChallenge-TypeDefs.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "30DaysChallenge-TypeDefs.pch"; sourceTree = "<group>"; };
 		19C86D6A1CDC9193006C34C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19C86D6F1CDC9226006C34C3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		19C86D711CDC9CFB006C34C3 /* TZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNavigationController.h; sourceTree = "<group>"; };
+		19C86D721CDC9CFB006C34C3 /* TZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNavigationController.m; sourceTree = "<group>"; };
+		19C86D751CDC9DD9006C34C3 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		19C86D761CDC9DD9006C34C3 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		19C86D791CDCACF7006C34C3 /* TZGlobalConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGlobalConfigManager.h; sourceTree = "<group>"; };
+		19C86D7A1CDCACF7006C34C3 /* TZGlobalConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGlobalConfigManager.m; sourceTree = "<group>"; };
 		20C49D101C007568B1110729 /* Pods-30DaysChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-30DaysChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		67769E24E3C89852527F8BDD /* Pods-30DaysChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-30DaysChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-30DaysChallenge/Pods-30DaysChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		96F46FBD7F59FC2CEB3AB297 /* libPods-30DaysChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-30DaysChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +143,7 @@
 		1950607D1CDC8A3900C2C927 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				196285C21CD1AD9200C1CC06 /* Assets.xcassets */,
+				198EDC5E1CDE29DC00A3FE76 /* Image */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -115,6 +158,7 @@
 		1950607F1CDC8A3900C2C927 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				19C86D741CDC9D9B006C34C3 /* Category */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -145,6 +189,7 @@
 		195060831CDC8A3900C2C927 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				19C86D781CDCACC5006C34C3 /* Config */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -152,6 +197,7 @@
 		195060841CDC8A3900C2C927 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				198EDC5A1CDDCBDD00A3FE76 /* Main */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +214,13 @@
 		195060861CDC8A9000C2C927 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				198EDC521CDDBA9F00A3FE76 /* TZMainContentView.h */,
+				198EDC531CDDBA9F00A3FE76 /* TZMainContentView.m */,
+				191982FB1CE066600011DDB8 /* TZMainButton.h */,
+				191982FC1CE066600011DDB8 /* TZMainButton.m */,
+				198EDC551CDDC56300A3FE76 /* TZMainContentCell.h */,
+				198EDC561CDDC56300A3FE76 /* TZMainContentCell.m */,
+				198EDC571CDDC56300A3FE76 /* TZMainContentCell.xib */,
 				196285BF1CD1AD9200C1CC06 /* Main.storyboard */,
 				196285C41CD1AD9200C1CC06 /* LaunchScreen.storyboard */,
 			);
@@ -190,6 +243,8 @@
 				1950608B1CDC8B5E00C2C927 /* TZViewController.m */,
 				1950608D1CDC8B7500C2C927 /* TZTableViewController.h */,
 				1950608E1CDC8B7500C2C927 /* TZTableViewController.m */,
+				19C86D711CDC9CFB006C34C3 /* TZNavigationController.h */,
+				19C86D721CDC9CFB006C34C3 /* TZNavigationController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -234,6 +289,7 @@
 				195060851CDC8A3900C2C927 /* Views */,
 				195060841CDC8A3900C2C927 /* Models */,
 				1950607F1CDC8A3900C2C927 /* Common */,
+				198EDC7A1CDF6F1500A3FE76 /* Libraries */,
 				195060831CDC8A3900C2C927 /* Managers */,
 				1950607E1CDC8A3900C2C927 /* Bussines */,
 				195060821CDC8A3900C2C927 /* Factories */,
@@ -262,17 +318,78 @@
 			path = 30DaysChallengeUITests;
 			sourceTree = "<group>";
 		};
+		198EDC5A1CDDCBDD00A3FE76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				198EDC5B1CDDCE1C00A3FE76 /* TZMainContentModel.h */,
+				198EDC5C1CDDCE1C00A3FE76 /* TZMainContentModel.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		198EDC5E1CDE29DC00A3FE76 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				198EDC611CDE29EA00A3FE76 /* 路飞 */,
+				198EDC5F1CDE29DC00A3FE76 /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		198EDC611CDE29EA00A3FE76 /* 路飞 */ = {
+			isa = PBXGroup;
+			children = (
+				198EDC621CDE29EA00A3FE76 /* lufei-1.png */,
+				198EDC631CDE29EA00A3FE76 /* lufei-2.png */,
+				198EDC641CDE29EA00A3FE76 /* lufei-3.png */,
+				198EDC651CDE29EA00A3FE76 /* lufei-4.png */,
+				198EDC661CDE29EA00A3FE76 /* lufei-5.png */,
+				198EDC671CDE29EA00A3FE76 /* lufei-6.png */,
+				198EDC681CDE29EA00A3FE76 /* lufei-7.png */,
+				198EDC691CDE29EA00A3FE76 /* lufei-8.png */,
+				198EDC6A1CDE29EA00A3FE76 /* lufei-9.png */,
+			);
+			path = "路飞";
+			sourceTree = "<group>";
+		};
+		198EDC7A1CDF6F1500A3FE76 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		19C86D641CDC9193006C34C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19C86D671CDC9193006C34C3 /* 30DaysChallenge-PrefixHeader.pch */,
 				19C86D651CDC9193006C34C3 /* 30DaysChallenge-Import.pch */,
 				19C86D661CDC9193006C34C3 /* 30DaysChallenge-Macros.pch */,
-				19C86D671CDC9193006C34C3 /* 30DaysChallenge-PrefixHeader.pch */,
 				19C86D681CDC9193006C34C3 /* 30DaysChallenge-TypeDefs.pch */,
 				19C86D6F1CDC9226006C34C3 /* Info.plist */,
 				19C86D6A1CDC9193006C34C3 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19C86D741CDC9D9B006C34C3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				198EDC771CDF5A4200A3FE76 /* UIView+FrameChange.h */,
+				198EDC781CDF5A4200A3FE76 /* UIView+FrameChange.m */,
+				19C86D751CDC9DD9006C34C3 /* UIImage+Utils.h */,
+				19C86D761CDC9DD9006C34C3 /* UIImage+Utils.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		19C86D781CDCACC5006C34C3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				19C86D791CDCACF7006C34C3 /* TZGlobalConfigManager.h */,
+				19C86D7A1CDCACF7006C34C3 /* TZGlobalConfigManager.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		4C87EA04065417C1083E50E2 /* Frameworks */ = {
@@ -399,9 +516,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C86D701CDC9226006C34C3 /* Info.plist in Resources */,
+				198EDC591CDDC56300A3FE76 /* TZMainContentCell.xib in Resources */,
+				198EDC731CDE29EA00A3FE76 /* lufei-9.png in Resources */,
+				198EDC6F1CDE29EA00A3FE76 /* lufei-5.png in Resources */,
+				198EDC711CDE29EA00A3FE76 /* lufei-7.png in Resources */,
+				198EDC6B1CDE29EA00A3FE76 /* lufei-1.png in Resources */,
+				198EDC721CDE29EA00A3FE76 /* lufei-8.png in Resources */,
 				196285C61CD1AD9200C1CC06 /* LaunchScreen.storyboard in Resources */,
-				196285C31CD1AD9200C1CC06 /* Assets.xcassets in Resources */,
+				198EDC601CDE29DC00A3FE76 /* Assets.xcassets in Resources */,
+				198EDC6E1CDE29EA00A3FE76 /* lufei-4.png in Resources */,
+				198EDC701CDE29EA00A3FE76 /* lufei-6.png in Resources */,
+				198EDC6C1CDE29EA00A3FE76 /* lufei-2.png in Resources */,
+				198EDC6D1CDE29EA00A3FE76 /* lufei-3.png in Resources */,
 				196285C11CD1AD9200C1CC06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,12 +601,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C86D7B1CDCACF7006C34C3 /* TZGlobalConfigManager.m in Sources */,
+				198EDC541CDDBA9F00A3FE76 /* TZMainContentView.m in Sources */,
+				191982FD1CE066600011DDB8 /* TZMainButton.m in Sources */,
+				198EDC5D1CDDCE1C00A3FE76 /* TZMainContentModel.m in Sources */,
+				198EDC791CDF5A4200A3FE76 /* UIView+FrameChange.m in Sources */,
 				196285BB1CD1AD9200C1CC06 /* TZAppDelegate.m in Sources */,
 				1950608C1CDC8B5E00C2C927 /* TZViewController.m in Sources */,
 				1950608F1CDC8B7500C2C927 /* TZTableViewController.m in Sources */,
 				195060921CDC8B8B00C2C927 /* TZTableView.m in Sources */,
 				19C86D6C1CDC9193006C34C3 /* main.m in Sources */,
+				198EDC581CDDC56300A3FE76 /* TZMainContentCell.m in Sources */,
+				19C86D731CDC9CFB006C34C3 /* TZNavigationController.m in Sources */,
 				19C86D631CDC9181006C34C3 /* TZMainViewController.m in Sources */,
+				19C86D771CDC9DD9006C34C3 /* UIImage+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

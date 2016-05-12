@@ -23,6 +23,9 @@
                                         NSShadowAttributeName : shadow};
     [UINavigationBar appearance].titleTextAttributes = titleTextAttrDict;
     
+    
+    [UIToolbar appearance].barTintColor = kBackgroundColor;
+    [UIToolbar appearance].tintColor = [UIColor whiteColor];
 }
 
 @end

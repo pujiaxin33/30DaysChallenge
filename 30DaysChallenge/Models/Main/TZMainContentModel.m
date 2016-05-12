@@ -14,7 +14,7 @@ NSString *const kTZMainContentModelState = @"state";
 NSString *const kTZMainContentModelPictureName = @"pictureName";
 NSString *const kTZMainContentModelChallengeName = @"challengeName";
 NSString *const kTZMainContentModelFeeling = @"feeling";
-
+NSString *const kTZMainContentModelResouceID = @"resouceID";
 
 @interface TZMainContentModel ()
 
@@ -30,7 +30,7 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
 @synthesize pictureName = _pictureName;
 @synthesize challengeName = _challengeName;
 @synthesize feeling = _feeling;
-
+@synthesize resourceID = _resourceID;
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {
@@ -50,7 +50,7 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
             self.pictureName = [self objectOrNilForKey:kTZMainContentModelPictureName fromDictionary:dict];
             self.challengeName = [self objectOrNilForKey:kTZMainContentModelChallengeName fromDictionary:dict];
             self.feeling = [self objectOrNilForKey:kTZMainContentModelFeeling fromDictionary:dict];
-
+            self.resourceID = [self getCurrentResourceID];
     }
     
     return self;
@@ -66,7 +66,8 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
     [mutableDict setValue:self.pictureName forKey:kTZMainContentModelPictureName];
     [mutableDict setValue:self.challengeName forKey:kTZMainContentModelChallengeName];
     [mutableDict setValue:self.feeling forKey:kTZMainContentModelFeeling];
-
+    [mutableDict setValue:self.resourceID forKey:kTZMainContentModelResouceID];
+    
     return [NSDictionary dictionaryWithDictionary:mutableDict];
 }
 
@@ -95,6 +96,7 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
     self.pictureName = [aDecoder decodeObjectForKey:kTZMainContentModelPictureName];
     self.challengeName = [aDecoder decodeObjectForKey:kTZMainContentModelChallengeName];
     self.feeling = [aDecoder decodeObjectForKey:kTZMainContentModelFeeling];
+    self.resourceID = [aDecoder decodeObjectForKey:kTZMainContentModelResouceID];
     return self;
 }
 
@@ -107,6 +109,7 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
     [aCoder encodeObject:_pictureName forKey:kTZMainContentModelPictureName];
     [aCoder encodeObject:_challengeName forKey:kTZMainContentModelChallengeName];
     [aCoder encodeObject:_feeling forKey:kTZMainContentModelFeeling];
+    [aCoder encodeObject:_resourceID forKey:kTZMainContentModelResouceID];
 }
 
 - (id)copyWithZone:(NSZone *)zone
@@ -121,10 +124,21 @@ NSString *const kTZMainContentModelFeeling = @"feeling";
         copy.pictureName = [self.pictureName copyWithZone:zone];
         copy.challengeName = [self.challengeName copyWithZone:zone];
         copy.feeling = [self.feeling copyWithZone:zone];
+        copy.resourceID = [self.resourceID copyWithZone:zone];
     }
     
     return copy;
 }
 
+#pragma mark private
+
+- (NSString *)getCurrentResourceID
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss:SSS"];
+    NSString *dateString = [formatter stringFromDate:[NSDate date]];
+    NSInteger randomNum = arc4random()%10000;
+    return [NSString stringWithFormat:@"%@-%@-%ld", self.challengeName, dateString, randomNum];
+}
 
 @end

@@ -42,7 +42,7 @@
 - (void)setBottom:(CGFloat)bottom
 {
     CGRect frame = self.frame;
-    frame.origin.y = bottom - frame.size.height;
+    frame.origin.y = [self superview].height - frame.size.height - bottom;
     self.frame = frame;
 }
 

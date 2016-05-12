@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, TZNavigationControllerType) {
-    TZNavigationControllerType_clear = 1,   //透明
-    TZNavigationControllerType_black,       //主题黑
-};
-
 @interface TZNavigationController : UINavigationController
 
 @end

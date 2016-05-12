@@ -7,10 +7,15 @@
 //
 
 #import "TZViewController.h"
+#import "UIImage+Utils.h"
+
+static NSTimeInterval kZoomAnimationDuration = 0.35;
 
 @interface TZViewController ()
+@property (nonatomic, assign) BOOL isViewDidAppear;
 @property (nonatomic, copy) ClickedCallback naviLeftItemCallback;
 @property (nonatomic, copy) ClickedCallback naviRightItemCallback;
+
 @end
 
 @implementation TZViewController
@@ -19,17 +24,53 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = kBackgroundColor;
-//    self.automaticallyAdjustsScrollViewInsets = NO;
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    [self initUI];
+    self.navigationController.navigationBar.translucent = NO;
+    _containerView = [[UIView alloc] initWithFrame:self.view.bounds];
+    _containerView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:_containerView];
+    
     [self initDatas];
+    [self initUI];
 }
+
 
 - (void)dealloc
 {
     _naviLeftItemCallback = nil;
     _naviRightItemCallback = nil;
 }
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if (self.isViewDidAppear) {
+        [self zoomViewScaleToValue:1];
+    }
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.isViewDidAppear = YES;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self zoomViewScaleToValue:0.88];
+}
+
+- (void)zoomViewScaleToValue:(CGFloat)toValue
+{
+    [self.containerView pop_removeAllAnimations];
+    POPBasicAnimation *animation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+    animation.toValue = [NSValue valueWithCGSize:CGSizeMake(toValue, toValue)];
+    animation.duration = kZoomAnimationDuration;
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    [self.containerView pop_addAnimation:animation forKey:@"zoom"];
+}
+
 
 #pragma mark
 #pragma mark init method
@@ -77,6 +118,29 @@
 {
     if (_naviRightItemCallback) {
         _naviRightItemCallback();
+    }
+}
+
+- (void)setNaviType:(TZNavigationControllerType)type
+{
+    switch (type) {
+        case TZNavigationControllerType_clear:
+        {
+            [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor clearColor]] forBarMetrics:UIBarMetricsDefault];
+        }
+            break;
+        case TZNavigationControllerType_black:
+        {
+            
+        }
+            break;
+        case TZNavigationControllerType_white:
+        {
+            self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+        }
+            break;
+        default:
+            break;
     }
 }
 

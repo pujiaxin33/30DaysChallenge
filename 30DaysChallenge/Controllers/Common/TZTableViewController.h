@@ -20,5 +20,12 @@
  */
 - (void)initDatas;
 
+#pragma mark
+#pragma mark 导航栏
+- (void)setNaviLeftItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
+- (void)setNaviRightItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
+
+- (void)setNaviType:(TZNavigationControllerType)type;
+
 
 @end

@@ -8,3 +8,10 @@
 
 typedef void(^ClickedCallback)();
 typedef void(^ButtonClickedCallback)(UIButton *sender);
+
+
+typedef NS_ENUM(NSUInteger, TZNavigationControllerType) {
+    TZNavigationControllerType_clear = 1,   //透明
+    TZNavigationControllerType_black,       //主题黑
+    TZNavigationControllerType_white,       //白色
+};

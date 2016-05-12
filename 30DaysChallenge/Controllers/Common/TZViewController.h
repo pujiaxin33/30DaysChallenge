@@ -10,6 +10,8 @@
 
 @interface TZViewController : UIViewController
 
+@property (nonatomic, strong) UIView *containerView;
+
 #pragma mark
 #pragma mark 子类继承
 /**
@@ -25,5 +27,7 @@
 #pragma mark 导航栏
 - (void)setNaviLeftItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
 - (void)setNaviRightItemWithTitle:(NSString *)title callback:(ClickedCallback)callback;
+
+- (void)setNaviType:(TZNavigationControllerType)type;
 
 @end

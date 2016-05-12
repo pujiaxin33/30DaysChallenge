@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Shimmer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,22 +52,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>687FE8F9BCB9BF6EEE21012696017BDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DE054CAF99C937C88C578C28118D0A8</key>
+		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EE0C2894770DD60E4C994C6715F22A0D</key>
+		<key>AD02AB30115DD29067A166CF62F63794</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F093785562329F26F5EE82D35AE05C25</key>
+		<key>DE5E55E21C150FF6EFC15ABB3CEFD5DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBFF89872959FE08E91FFD2C47BAAE77</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,4 +15,10 @@ target '30DaysChallenge' do
     # 动画
     pod 'pop'
 
+    # 数据库
+    pod 'FMDB'
+
+    # 控件
+    pod 'Shimmer'
+
 end

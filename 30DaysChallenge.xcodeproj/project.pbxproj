@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		191982FD1CE066600011DDB8 /* TZMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 191982FC1CE066600011DDB8 /* TZMainButton.m */; };
+		191983031CE097CA0011DDB8 /* TZDataSourceDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 191983021CE097CA0011DDB8 /* TZDataSourceDAO.m */; };
+		191983061CE098920011DDB8 /* TZAbstractDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 191983051CE098920011DDB8 /* TZAbstractDAO.m */; };
+		191983091CE098C00011DDB8 /* TZDBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 191983081CE098C00011DDB8 /* TZDBDataSource.m */; };
 		1950608C1CDC8B5E00C2C927 /* TZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1950608B1CDC8B5E00C2C927 /* TZViewController.m */; };
 		1950608F1CDC8B7500C2C927 /* TZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1950608E1CDC8B7500C2C927 /* TZTableViewController.m */; };
 		195060921CDC8B8B00C2C927 /* TZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195060911CDC8B8B00C2C927 /* TZTableView.m */; };
@@ -31,6 +34,14 @@
 		198EDC721CDE29EA00A3FE76 /* lufei-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC691CDE29EA00A3FE76 /* lufei-8.png */; };
 		198EDC731CDE29EA00A3FE76 /* lufei-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 198EDC6A1CDE29EA00A3FE76 /* lufei-9.png */; };
 		198EDC791CDF5A4200A3FE76 /* UIView+FrameChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EDC781CDF5A4200A3FE76 /* UIView+FrameChange.m */; };
+		19C7FC951CE316790021F702 /* TZMainDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FC941CE316790021F702 /* TZMainDataSourceManager.m */; };
+		19C7FC981CE318730021F702 /* TZMainGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FC971CE318730021F702 /* TZMainGuideView.m */; };
+		19C7FC9E1CE331B70021F702 /* TZCreateChallengeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FC9D1CE331B70021F702 /* TZCreateChallengeController.m */; };
+		19C7FCA11CE333BB0021F702 /* TZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FCA01CE333BB0021F702 /* TZTextField.m */; };
+		19C7FCA61CE372DC0021F702 /* TZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FCA51CE372DC0021F702 /* TZPickerView.m */; };
+		19C7FCAB1CE436850021F702 /* TZTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FCAA1CE436850021F702 /* TZTestView.m */; };
+		19C7FCAD1CE436940021F702 /* TZTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C7FCAC1CE436940021F702 /* TZTestView.xib */; };
+		19C7FCB11CE459D20021F702 /* TZChoosePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C7FCB01CE459D20021F702 /* TZChoosePictureController.m */; };
 		19C86D631CDC9181006C34C3 /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D621CDC9181006C34C3 /* TZMainViewController.m */; };
 		19C86D6C1CDC9193006C34C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D6A1CDC9193006C34C3 /* main.m */; };
 		19C86D731CDC9CFB006C34C3 /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C86D721CDC9CFB006C34C3 /* TZNavigationController.m */; };
@@ -59,6 +70,12 @@
 /* Begin PBXFileReference section */
 		191982FB1CE066600011DDB8 /* TZMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainButton.h; sourceTree = "<group>"; };
 		191982FC1CE066600011DDB8 /* TZMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainButton.m; sourceTree = "<group>"; };
+		191983011CE097CA0011DDB8 /* TZDataSourceDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDataSourceDAO.h; sourceTree = "<group>"; };
+		191983021CE097CA0011DDB8 /* TZDataSourceDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDataSourceDAO.m; sourceTree = "<group>"; };
+		191983041CE098920011DDB8 /* TZAbstractDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAbstractDAO.h; sourceTree = "<group>"; };
+		191983051CE098920011DDB8 /* TZAbstractDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAbstractDAO.m; sourceTree = "<group>"; };
+		191983071CE098C00011DDB8 /* TZDBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDBDataSource.h; sourceTree = "<group>"; };
+		191983081CE098C00011DDB8 /* TZDBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDBDataSource.m; sourceTree = "<group>"; };
 		1950608A1CDC8B5E00C2C927 /* TZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZViewController.h; sourceTree = "<group>"; };
 		1950608B1CDC8B5E00C2C927 /* TZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZViewController.m; sourceTree = "<group>"; };
 		1950608D1CDC8B7500C2C927 /* TZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTableViewController.h; sourceTree = "<group>"; };
@@ -95,6 +112,21 @@
 		198EDC6A1CDE29EA00A3FE76 /* lufei-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lufei-9.png"; sourceTree = "<group>"; };
 		198EDC771CDF5A4200A3FE76 /* UIView+FrameChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameChange.h"; sourceTree = "<group>"; };
 		198EDC781CDF5A4200A3FE76 /* UIView+FrameChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameChange.m"; sourceTree = "<group>"; };
+		19C7FC931CE316790021F702 /* TZMainDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainDataSourceManager.h; sourceTree = "<group>"; };
+		19C7FC941CE316790021F702 /* TZMainDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainDataSourceManager.m; sourceTree = "<group>"; };
+		19C7FC961CE318730021F702 /* TZMainGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainGuideView.h; sourceTree = "<group>"; };
+		19C7FC971CE318730021F702 /* TZMainGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainGuideView.m; sourceTree = "<group>"; };
+		19C7FC9C1CE331B70021F702 /* TZCreateChallengeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZCreateChallengeController.h; sourceTree = "<group>"; };
+		19C7FC9D1CE331B70021F702 /* TZCreateChallengeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZCreateChallengeController.m; sourceTree = "<group>"; };
+		19C7FC9F1CE333BB0021F702 /* TZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTextField.h; sourceTree = "<group>"; };
+		19C7FCA01CE333BB0021F702 /* TZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTextField.m; sourceTree = "<group>"; };
+		19C7FCA41CE372DC0021F702 /* TZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPickerView.h; sourceTree = "<group>"; };
+		19C7FCA51CE372DC0021F702 /* TZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPickerView.m; sourceTree = "<group>"; };
+		19C7FCA91CE436850021F702 /* TZTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTestView.h; sourceTree = "<group>"; };
+		19C7FCAA1CE436850021F702 /* TZTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTestView.m; sourceTree = "<group>"; };
+		19C7FCAC1CE436940021F702 /* TZTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZTestView.xib; sourceTree = "<group>"; };
+		19C7FCAF1CE459D20021F702 /* TZChoosePictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZChoosePictureController.h; sourceTree = "<group>"; };
+		19C7FCB01CE459D20021F702 /* TZChoosePictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZChoosePictureController.m; sourceTree = "<group>"; };
 		19C86D611CDC9181006C34C3 /* TZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainViewController.h; sourceTree = "<group>"; };
 		19C86D621CDC9181006C34C3 /* TZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainViewController.m; sourceTree = "<group>"; };
 		19C86D651CDC9193006C34C3 /* 30DaysChallenge-Import.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "30DaysChallenge-Import.pch"; sourceTree = "<group>"; };
@@ -167,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				195060871CDC8AA900C2C927 /* Main */,
+				19C7FC9B1CE3318D0021F702 /* Create */,
+				19C7FCAE1CE459B10021F702 /* Picture */,
 				195060881CDC8B3000C2C927 /* Common */,
 			);
 			path = Controllers;
@@ -175,6 +209,12 @@
 		195060811CDC8A3900C2C927 /* DAO */ = {
 			isa = PBXGroup;
 			children = (
+				191983011CE097CA0011DDB8 /* TZDataSourceDAO.h */,
+				191983021CE097CA0011DDB8 /* TZDataSourceDAO.m */,
+				191983041CE098920011DDB8 /* TZAbstractDAO.h */,
+				191983051CE098920011DDB8 /* TZAbstractDAO.m */,
+				191983071CE098C00011DDB8 /* TZDBDataSource.h */,
+				191983081CE098C00011DDB8 /* TZDBDataSource.m */,
 			);
 			path = DAO;
 			sourceTree = "<group>";
@@ -189,6 +229,7 @@
 		195060831CDC8A3900C2C927 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				19C7FC921CE315F50021F702 /* Main */,
 				19C86D781CDCACC5006C34C3 /* Config */,
 			);
 			path = Managers;
@@ -218,6 +259,8 @@
 				198EDC531CDDBA9F00A3FE76 /* TZMainContentView.m */,
 				191982FB1CE066600011DDB8 /* TZMainButton.h */,
 				191982FC1CE066600011DDB8 /* TZMainButton.m */,
+				19C7FC961CE318730021F702 /* TZMainGuideView.h */,
+				19C7FC971CE318730021F702 /* TZMainGuideView.m */,
 				198EDC551CDDC56300A3FE76 /* TZMainContentCell.h */,
 				198EDC561CDDC56300A3FE76 /* TZMainContentCell.m */,
 				198EDC571CDDC56300A3FE76 /* TZMainContentCell.xib */,
@@ -254,6 +297,13 @@
 			children = (
 				195060901CDC8B8B00C2C927 /* TZTableView.h */,
 				195060911CDC8B8B00C2C927 /* TZTableView.m */,
+				19C7FC9F1CE333BB0021F702 /* TZTextField.h */,
+				19C7FCA01CE333BB0021F702 /* TZTextField.m */,
+				19C7FCA41CE372DC0021F702 /* TZPickerView.h */,
+				19C7FCA51CE372DC0021F702 /* TZPickerView.m */,
+				19C7FCA91CE436850021F702 /* TZTestView.h */,
+				19C7FCAA1CE436850021F702 /* TZTestView.m */,
+				19C7FCAC1CE436940021F702 /* TZTestView.xib */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -357,6 +407,33 @@
 			children = (
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		19C7FC921CE315F50021F702 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				19C7FC931CE316790021F702 /* TZMainDataSourceManager.h */,
+				19C7FC941CE316790021F702 /* TZMainDataSourceManager.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		19C7FC9B1CE3318D0021F702 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				19C7FC9C1CE331B70021F702 /* TZCreateChallengeController.h */,
+				19C7FC9D1CE331B70021F702 /* TZCreateChallengeController.m */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		19C7FCAE1CE459B10021F702 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				19C7FCAF1CE459D20021F702 /* TZChoosePictureController.h */,
+				19C7FCB01CE459D20021F702 /* TZChoosePictureController.m */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		19C86D641CDC9193006C34C3 /* Supporting Files */ = {
@@ -519,6 +596,7 @@
 				198EDC591CDDC56300A3FE76 /* TZMainContentCell.xib in Resources */,
 				198EDC731CDE29EA00A3FE76 /* lufei-9.png in Resources */,
 				198EDC6F1CDE29EA00A3FE76 /* lufei-5.png in Resources */,
+				19C7FCAD1CE436940021F702 /* TZTestView.xib in Resources */,
 				198EDC711CDE29EA00A3FE76 /* lufei-7.png in Resources */,
 				198EDC6B1CDE29EA00A3FE76 /* lufei-1.png in Resources */,
 				198EDC721CDE29EA00A3FE76 /* lufei-8.png in Resources */,
@@ -601,20 +679,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C7FC981CE318730021F702 /* TZMainGuideView.m in Sources */,
+				191983061CE098920011DDB8 /* TZAbstractDAO.m in Sources */,
 				19C86D7B1CDCACF7006C34C3 /* TZGlobalConfigManager.m in Sources */,
 				198EDC541CDDBA9F00A3FE76 /* TZMainContentView.m in Sources */,
+				19C7FCAB1CE436850021F702 /* TZTestView.m in Sources */,
+				19C7FCB11CE459D20021F702 /* TZChoosePictureController.m in Sources */,
 				191982FD1CE066600011DDB8 /* TZMainButton.m in Sources */,
+				19C7FC9E1CE331B70021F702 /* TZCreateChallengeController.m in Sources */,
+				19C7FCA61CE372DC0021F702 /* TZPickerView.m in Sources */,
 				198EDC5D1CDDCE1C00A3FE76 /* TZMainContentModel.m in Sources */,
 				198EDC791CDF5A4200A3FE76 /* UIView+FrameChange.m in Sources */,
 				196285BB1CD1AD9200C1CC06 /* TZAppDelegate.m in Sources */,
+				191983031CE097CA0011DDB8 /* TZDataSourceDAO.m in Sources */,
 				1950608C1CDC8B5E00C2C927 /* TZViewController.m in Sources */,
 				1950608F1CDC8B7500C2C927 /* TZTableViewController.m in Sources */,
 				195060921CDC8B8B00C2C927 /* TZTableView.m in Sources */,
+				191983091CE098C00011DDB8 /* TZDBDataSource.m in Sources */,
+				19C7FCA11CE333BB0021F702 /* TZTextField.m in Sources */,
 				19C86D6C1CDC9193006C34C3 /* main.m in Sources */,
 				198EDC581CDDC56300A3FE76 /* TZMainContentCell.m in Sources */,
 				19C86D731CDC9CFB006C34C3 /* TZNavigationController.m in Sources */,
 				19C86D631CDC9181006C34C3 /* TZMainViewController.m in Sources */,
 				19C86D771CDC9DD9006C34C3 /* UIImage+Utils.m in Sources */,
+				19C7FC951CE316790021F702 /* TZMainDataSourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

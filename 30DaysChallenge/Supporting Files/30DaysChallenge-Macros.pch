@@ -21,12 +21,22 @@
 #define kTextAssistColor  ColorWithHex(0xAEAEAE, 1.0f)
 //蓝色
 #define kBlueColor  ColorWithHex(0x3498db, 1.0f)
+//橘色
+#define kOrangeColor ColorWithHex(0xf39c12, 1.0f)
+//空内容指示色
+#define kEmptyContentColor ColorWithHex(0xddf0ed, 1.0f)
 
 //=============== 尺寸 ==============
 #define WindowSize [UIScreen mainScreen].bounds.size
 #define NaviHeight 64.f
+#define kNormalCornerRadius 5.f
 
 //=============== 图片 ==============
 #define ImageWithName(name) [UIImage imageNamed:name]
+
+//=============== 文本 ==============
+#define KMainFontName @"AmericanTypewriter-Bold"
+
+#define WeakSelf(classType) __weak typeof(classType)weakSelf = classType
 
 #endif

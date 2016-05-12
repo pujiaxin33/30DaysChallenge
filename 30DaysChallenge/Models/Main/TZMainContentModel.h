@@ -11,6 +11,7 @@
 
 @interface TZMainContentModel : NSObject <NSCoding, NSCopying>
 
+@property (nonatomic, strong) NSString *resourceID;
 @property (nonatomic, strong) NSString *word;
 @property (nonatomic, assign) NSUInteger completedDays;
 @property (nonatomic, strong) NSString *state;

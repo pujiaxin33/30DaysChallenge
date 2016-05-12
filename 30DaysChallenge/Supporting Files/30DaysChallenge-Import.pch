@@ -10,6 +10,7 @@
 
 #import "TZViewController.h"
 #import "TZTableViewController.h"
+#import "TZNavigationController.h"
 #import "UIView+FrameChange.h"
 #import <Masonry/Masonry.h>
 #import <pop/POP.h>
